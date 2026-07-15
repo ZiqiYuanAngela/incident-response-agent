@@ -1,0 +1,5 @@
+{
+  "service_name": "payment-service",
+  "description": "Customers started receiving payment timeout errors shortly after version 2.4.0 was deployed.",
+  "logs": "2026-07-18T10:02:13Z ERROR Failed to acquire database connection\n2026-07-18T10:02:13Z ERROR Database connection timed out after 3000ms\n2026-07-18T10:02:14Z WARN Connection pool utilization: 100%\n2026-07-18T10:02:15Z ERROR POST /payments returned 503"
+}
